@@ -27,5 +27,4 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - name: Test problems
       run: |
-        ls -la
         python -m unittest
